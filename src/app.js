@@ -36,7 +36,7 @@ app.get("/credit", function(request, response) {
 });
 
 app.get("/profile", function(request, response) {
-  response.render("profile", { user: user[0] });
+  response.render("profile", { user: users[0] });
 });
 
 app.listen(3000, () => {
